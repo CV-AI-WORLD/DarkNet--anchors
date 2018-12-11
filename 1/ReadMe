@@ -1,0 +1,13 @@
+第1步：首先使用list_dir 将索引出所有图片文件的路径（包括文件名），例如
+/home/path/image1.jpg
+/home/path/image2.jpg
+/home/path/image3.jpg
+/home/path/image4.jpg
+
+第2步：利用list_dir_name.py文件索引出所有图片文件的文件名(不包括文件的后缀)，例如：
+image1
+image2
+image3
+image4
+
+第3步：利用xmlTotxt.py和第2步得到的文件名，将xml文件转换为txt文件
